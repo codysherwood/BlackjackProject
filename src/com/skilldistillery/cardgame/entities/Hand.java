@@ -3,6 +3,10 @@ package com.skilldistillery.cardgame.entities;
 import java.util.List;
 
 public abstract class Hand {
-	protected List<Card> hands;
+	protected List<Card> Hand;
+	public void addCard() {
+		
+	} 
+	
 
 }

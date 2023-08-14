@@ -11,17 +11,17 @@ public class Card {
 		this.theRank = theRank;
 
 	}
+
 	public int getValue(Rank rank) {
 		int value = rank.getRankValue();
 		return value;
-		
+
 	}
 
 	@Override
 	public String toString() {
-		return  theRank + " of " + theSuit;
+		return theRank + " of " + theSuit;
 	}
-
 
 	@Override
 	public int hashCode() {
